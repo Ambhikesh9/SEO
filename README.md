@@ -21,12 +21,19 @@ This project is dedicated to enhancing Search Engine Optimization (SEO) strategi
    ```bash
    cd SEO
    ```
+  
 3. **Install dependencies**:
    - For Python components:
+     ```bash
+     cd backendmain
+     ```
      ```bash
      pip install -r requirements.txt
      ```
    - For JavaScript components:
+     ```bash
+     cd js_backend
+     ```
      ```bash
      npm install
      ```
@@ -35,10 +42,23 @@ This project is dedicated to enhancing Search Engine Optimization (SEO) strategi
 
 1. **Start the application**:
    - For the backend:
+      ```bash
+     cd backendmain
+     ```
      ```bash
      python app.py
      ```
+   - For the server:
+    ```bash
+     cd js_backend
+     ```
+     ```bash
+     node server.js
+     ```
    - For the frontend:
+    ```bash
+    cd frontend
+     ```
      ```bash
      npm start
      ```
@@ -65,10 +85,3 @@ We welcome contributions! Please follow these steps:
    ```
 6. **Create a Pull Request**.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any inquiries or feedback, please contact [parjan935](https://github.com/parjan935).
